@@ -83,6 +83,7 @@ h1 {
   color: var(--desaturated_blue);
 }
 .change_package a {
+  font-weight: 700;
   float: right;
   color: var(--bright_blue);
 }
@@ -108,3 +109,44 @@ h1 {
   color: var(--desaturated_blue);
   font-weight: 700;
 }
+
+/* howering */
+.change_package:hover a {
+  color: var(--desaturated_blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+.cancel_btn:hover a {
+  color: var(--dark_blue);
+  cursor: pointer;
+}
+.btn:hover button {
+  background-color: var(--desaturated_blue);
+  cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-image: none;
+  }
+}
+
+/* .one {
+  width: 50px;
+  height: 50px;
+  border: 1px solid blueviolet;
+}
+.a1 {
+  background-color: var(--very_pale_blue);
+}
+.a2 {
+  background-color: var(--pale_blue);
+}
+.a3 {
+  background-color: var(--desaturated_blue);
+}
+.a4 {
+  background-color: var(--dark_blue);
+}
+.a5 {
+  background-color: var(--bright_blue);
+} */
